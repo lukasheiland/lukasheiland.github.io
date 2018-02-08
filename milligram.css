@@ -45,7 +45,7 @@ input[type='button'],
 input[type='reset'],
 input[type='submit'] {
   font-family: 'Source Code Pro', monospace;
-  font-size: 1.3rem;
+  font-size: 1.31rem;
   background-color: #222222;
   border: 0.1rem solid #222222;
   border-radius: .4rem;
@@ -119,7 +119,7 @@ input[type='reset'].button-outline:hover,
 input[type='submit'].button-outline:focus,
 input[type='submit'].button-outline:hover {
   background-color: transparent;
-  border-color: #00bbef;
+  border-color: #a4a5a6;
 }
 
 .button.button-outline[disabled]:focus, .button.button-outline[disabled]:hover,
