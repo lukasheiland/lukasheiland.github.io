@@ -23,9 +23,9 @@ body {
   color: #222222;
   font-family: 'Source Serif Pro', 'Georgia', serif;
   font-size: 1.6em;
-  font-weight: 400;
+  font-weight: 500;
   letter-spacing: .01em;
-  line-height: 1.6;
+  line-height: 1.4;
 }
 
 blockquote {
@@ -53,10 +53,10 @@ input[type='submit'] {
   cursor: pointer;
   display: inline-block;
   font-weight: 500;
-  height: 3.1rem;
-  letter-spacing: .2rem;
-  line-height: 3.1rem;
-  padding: 0 1.2rem;
+  height: 2.5rem;
+  letter-spacing: 0rem;
+  line-height: 2.5rem;
+  padding: 0 0.4rem;
   text-align: center;
   text-decoration: none;
   /* text-transform: uppercase; */
@@ -120,6 +120,7 @@ input[type='submit'].button-outline:focus,
 input[type='submit'].button-outline:hover {
   background-color: transparent;
   border-color: #a4a5a6;
+  color: #a4a5a6;
 }
 
 .button.button-outline[disabled]:focus, .button.button-outline[disabled]:hover,
@@ -278,6 +279,7 @@ input[type='radio'] {
   padding: 0 2.0rem;
   position: relative;
   width: 100%;
+  overflow: auto;
 }
 
 .row {
@@ -586,6 +588,10 @@ h6 {
 
 img {
   max-width: 100%;
+}
+
+.clearfix{
+    overflow: auto;
 }
 
 .clearfix:after {
