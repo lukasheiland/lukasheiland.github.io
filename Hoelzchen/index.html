@@ -33,33 +33,46 @@
 				            poster: 'https://freakshow.fm/wp-content/cache/podlove/04/662a9d4edcf77ea2abe3c74681f509/freak-show_200x200.jpg',
 				            url: 'https://freakshow.fm'
 				        },
-				        duration: '04:15:32',
+				        duration: '01:13:23',
 				        chapters: [
-				            { start:"00:00:00", title: 'Intro'},
-				            { start:"00:01:39", title: 'Begrüßung'},
-				            { start:"00:04:58", title: 'IETF Meeting Netzwerk'},
-				            { start:"00:18:37", title: 'Kalender'},
-				            { start:"00:33:40", title: 'Freak Show Bingo'},
-				            { start:"00:35:37", title: 'Wikipedia'},
-				            { start:"01:17:26", title: 'iPhone Akkukalibration'},
-				            { start:"01:24:55", title: 'Alte iPads und iPod touches'},
-				            { start:"01:31:02", title: 'Find My Friends'},
-				            { start:"01:41:46", title: 'iPhone Music Player'},
-				            { start:"01:56:13", title: 'Apple Watch'},
-				            { start:"02:11:51", title: 'Kommandozeile: System Appreciation'},
-				            { start:"02:23:10", title: 'Sound und Design für Games'},
-				            { start:"02:24:59", title: 'Kommandozeile: Remote Deployment'},
-				            { start:"02:32:37", title: 'Kommandozeile: Man Pages'},
-				            { start:"02:44:31", title: 'Kommandozeile: screen vs. tmux'},
-				            { start:"02:58:02", title: 'Star Wars: Machete Order & Phantom Edit'},
-				            { start:"03:20:05", title: 'Kopfhörer-Ersatzteile'},
-				            { start:"03:23:39", title: 'Dante'},
-				            { start:"03:38:03", title: 'Dante Via'},
-				            { start:"03:45:33", title: 'Internet of Things Security'},
-				            { start:"03:56:11", title: 'That One Privacy Guy\'s VPN Comparison Chart'},
-				            { start:"04:10:00", title: 'Ausklang'}
+							{"start":"00:00:00.000","title":"Einf\u00fchrung","href":"","image":""},
+							{"start":"00:01:16.071","title":"Vorstellung J\u00fcrgen Pusch","href":"","image":""},
+							{"start":"00:04:56.724","title":"Naturraum Kyffh\u00e4user, Geologie und Klima","href":"","image":""},
+							{"start":"00:08:49.283","title":"Station 1: Aufforstung und potentielle nat\u00fcrliche Vegetation unterhalb des Galgenbergs","href":"","image":""},
+							{"start":"00:10:47.558","title":"Station 2: Trespenrasen am Galgenberg","href":"","image":""},
+							{"start":"00:17:34.036","title":"Station 3: Offener Gipsfels","href":"","image":""},
+							{"start":"00:19:14.624","title":"Aufrechte Trespe und Schafbeweidung","href":"","image":""},
+							{"start":"00:22:53.821","title":"Station 4: Karstbuchenwald an der Wei\u00dfen K\u00fcche","href":"","image":""},
+							{"start":"00:25:42.757","title":"Station 5: Hohlweg, Forstwirtschaft und Salzsiederei","href":"","image":""},
+							{"start":"00:30:04.286","title":"Nutzung, Naturschutz, Management","href":"","image":""},
+							{"start":"00:31:51.069","title":"Biodiversit\u00e4t und Artdiversit\u00e4t","href":"","image":""},
+							{"start":"00:33:58.489","title":"Station 6: N\u00f6rdlich der Hornungsh\u00f6he","href":"","image":""},
+							{"start":"00:34:59.237","title":"Station 7: Obstsortengarten am Till'schen Tor und genetische Diversit\u00e4t","href":"","image":""},
+							{"start":"00:49:13.603","title":"Station 8: Acker am Schlachtberg und Rote Listen","href":"","image":""},
+							{"start":"00:57:34.456","title":"Station 9: Ehemaliger Acker und Samenbank","href":"","image":""},
+							{"start":"01:00:57.405","title":"Station 10: Steppenrasen am Steilhang oberhalb des Napptals","href":"","image":""},
+							{"start":"01:09:44.219","title":"Station 11: Gipskuppe","href":"","image":""},
+							{"start":"01:11:26.337","title":"Schluss","href":"","image":""}
 				        ],
-				        audio: [{
+						
+						tabs: {
+						   chapters: true // will expand the info tab on load
+						},
+						
+						visibleComponents: [
+						    'tabInfo',
+						    'tabChapters',
+						    'tabDownload',
+						    'tabAudio',
+						    'poster',
+						    'episodeTitle',
+						    'subtitle',
+						    'progressbar',
+						    'controlSteppers',
+						    'controlChapters'
+						  ],
+						  
+						  audio: [{
 				          url: 'HS2.mp3',
 				          mimeType: 'audio/mp3',
 				          size: 14665000,
