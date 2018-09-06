@@ -596,6 +596,11 @@ img {
     overflow: auto;
 }
 
+.mapcontainer img {
+    max-height: none;
+	max-width: none;
+}
+
 .clearfix:after {
   clear: both;
   content: ' ';
