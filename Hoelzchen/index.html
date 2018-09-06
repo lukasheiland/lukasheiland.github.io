@@ -38,29 +38,11 @@
 					 		maxZoom: 20,
 					 		attribution: 'Data: &copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>, <a href="http://viewfinderpanoramas.org">SRTM</a> | Style: &copy; <a href="https://opentopomap.org">OpenTopoMap</a> (<a href="https://creativecommons.org/licenses/by-sa/3.0/">CC-BY-SA</a>)'
 					 	}).addTo(mymap);
-					var gpxData = new L.GPX('HS2Track.gpx', 
-						{
-					    async: true,
-					    marker_options: 
-							{
-							/* Marker Icons festlegen Festlegung erfolgt nach */
-							/* <sym> bla bla </sym> Tag in der GPX Datei      */
-							wptIconUrls: 
-								{
-					            'Pin, Green': 'pic/pin48green.png',
-								'Pin, Red': 'pic/pin48red.png'						
-								},
-							iconSize:    [44, 36],		
-							iconAnchor:  [9, 21],
-							popupAnchor: [0, -14],
-			
-							/* Auschalten von Beginn und Ende Marker */
-					        startIconUrl: false,
-					        endIconUrl: false,
-					        shadowUrl: false
-					        }
-					    }
-					);
+				
+					var gpx = 'HS2Track.gpx';
+						new L.GPX(gpx, {async: true}).on('loaded', function(e) {
+					  	  map.fitBounds(e.target.getBounds());
+						}).addTo(map);
 				</script>
 					
 				<div id="example"></div>
