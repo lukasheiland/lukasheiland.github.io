@@ -609,3 +609,7 @@ img {
 .float-right {
   float: right;
 }
+
+.leaflet-container:img {
+  max-width: 100%;
+  padding: 0rem 0rem;}
