@@ -588,7 +588,7 @@ h6 {
   line-height: 1.4;
 }
 
-img {
+img not(.leaflet-container:img){
   max-width: 100%;
   padding: 0rem 1rem;}
 
@@ -609,7 +609,3 @@ img {
 .float-right {
   float: right;
 }
-
-.leaflet-container:img {
-  max-width: 100%;
-  padding: 0rem 0rem;}
