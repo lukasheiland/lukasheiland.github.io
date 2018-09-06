@@ -41,8 +41,8 @@
 				
 					var gpx = 'HS2Track.gpx';
 						new L.GPX(gpx, {async: true}).on('loaded', function(e) {
-					  	  map.fitBounds(e.target.getBounds());
-						}).addTo(map);
+					  	  mymap.fitBounds(e.target.getBounds());
+						}).addTo(mymap);
 				</script>
 					
 				<div id="example"></div>
