@@ -2,7 +2,7 @@
 <meta charset=utf-8>
 <html>
 <head>
-	<title>Vom Hölzchen aufs Stöckchen</title>
+		<title>Exkursionspodcast</title>
 	<link rel="stylesheet" href="../milligram.css">
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Serif+Pro" >
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" >
@@ -80,10 +80,15 @@
 										startIconUrl: 'Icons/startpin.png',
 										endIconUrl: 'Icons/endpin.png',
 										shadowUrl: 'Icons/pinshadow.png'//,
-										//wptIconUrls: {
-										//	'': 'Icons/waypointpin.png',
-										//	'Titel': ''
-										//}
+										wptIconUrls: {
+											'': new L.AwesomeMarkers.icon({
+												icon: 'coffee',
+												prefix: 'fa',
+												markerColor: 'blue',
+												iconColor: 'white'
+											}),
+											'Titel': ''
+										}
 									},
 									polyline_options: {
 										color: '#00BBEF',
