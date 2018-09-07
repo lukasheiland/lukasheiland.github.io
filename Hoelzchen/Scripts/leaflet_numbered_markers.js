@@ -1,7 +1,7 @@
 L.NumberedDivIcon = L.Icon.extend({
 	options: {
     // EDIT THIS TO POINT TO THE FILE AT http://www.charliecroom.com/marker_hole.png (or your own marker)
-    iconUrl: '<%= "Scripts/marker_hole.png" %>',
+    iconUrl: 'Scripts/marker_hole.png',
     number: '',
     shadowUrl: null,
     iconSize: new L.Point(25, 41),
