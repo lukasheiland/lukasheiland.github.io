@@ -71,30 +71,29 @@
 					var gpx = 'HS2Track.gpx';
 					new L.GPX(gpx, {async: true,
 									marker_options: {
-										pointMatchers: [
-										      {
-										        regex: /1 Aufforstung und potentielle natürliche Vegetation unterhalb des Galgenbergs/,
-										        icon: new L.AwesomeMarkers.icon({
-										          icon: 'coffee',
-										          markerColor: 'black',
-										          iconColor: 'white'
-										        }),
-										      },
-										      {
-										        regex: /2/,
-										        icon: new L.AwesomeMarkers.icon({
-										          icon: 'home',
-										          markerColor: 'green',
-										          iconColor: 'white'
-										        }),
-										      }
-										    ],
+										//pointMatchers: [
+										//      {
+										//        regex: /1 Aufforstung und potentielle natürliche Vegetation unterhalb des Galgenbergs/,
+										//        icon: new L.AwesomeMarkers.icon({
+										//          icon: 'coffee',
+										//          markerColor: 'black',
+										//          iconColor: 'white'
+										//        }),
+										//      },
+										//      {
+										//        regex: /2/,
+										//        icon: new L.AwesomeMarkers.icon({
+										//          icon: 'home',
+										//          markerColor: 'green',
+										//          iconColor: 'white'
+										//        }),
+										//      }
+										//    ],
 										startIconUrl: 'Icons/startpin.png',
 										endIconUrl: 'Icons/endpin.png',
 										shadowUrl: 'Icons/pinshadow.png',
 										wptIconUrls: {
 											'': new L.NumberedDivIcon({number: '1'}),
-											'Titel': ''
 										}
 									},
 									polyline_options: {
