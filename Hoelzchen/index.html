@@ -40,16 +40,23 @@
 					 	}).addTo(mymap);
 				
 					var gpx = 'HS2Track.gpx';
-					new L.GPX(gpx, {async: true, marker_options: {startIconUrl: 'Icons/startpin.png',
-																	endIconUrl: 'Icons/endpin.png',
-																	shadowUrl: 'Icons/pinshadow.png',
-																	wptIconUrls: {
-																		'': 'Icons/waypointpin.png',
-																		'Titel': '',
-																	}
-																	}).on('loaded', function(e) {
-																			mymap.fitBounds(e.target.getBounds());
-																		}).addTo(mymap);
+					new L.GPX(gpx, {async: true,
+									marker_options: {
+										startIconUrl: 'Icons/startpin.png',
+										endIconUrl: 'Icons/endpin.png',
+										shadowUrl: 'Icons/pinshadow.png',
+										wptIconUrls: {
+											'': 'Icons/waypointpin.png',
+											'Titel': ''
+										},
+									polyline_options: {
+										color: '#00BBEF',
+										opacity: 0.75,
+										weight: 4,
+										lineCap: 'round'
+									}).on('loaded', function(e) {
+										mymap.fitBounds(e.target.getBounds());
+									}).addTo(mymap);
 					var dist = L.GPX.get_distance(gpx); //returns the total track distance, in meters
 				</script>
 					
