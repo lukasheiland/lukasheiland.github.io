@@ -42,7 +42,7 @@
 	<link href="https://fastcdn.org/Leaflet.awesome-markers/2.0.1/images/markers-plain.png" rel="icon">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
 
-	
+	<script src="https://gist.github.com/steflef/2711380.js"></script>
 	
 	
 
@@ -93,12 +93,7 @@
 										endIconUrl: 'Icons/endpin.png',
 										shadowUrl: 'Icons/pinshadow.png',
 										wptIconUrls: {
-											'': new L.AwesomeMarkers.icon({
-												icon: 'coffee',
-												prefix: 'fa',
-												markerColor: 'blue',
-												iconColor: 'white'
-											}),
+											'': new L.NumberedDivIcon({number: '1'}),
 											'Titel': ''
 										}
 									},
