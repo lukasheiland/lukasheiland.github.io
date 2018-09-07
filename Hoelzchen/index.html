@@ -50,7 +50,8 @@
 										wptIconUrls: {
 											'': 'Icons/waypointpin.png',
 											'Titel': ''
-										},
+										}
+									},
 									polyline_options: {
 										color: '#00BBEF',
 										opacity: 0.75,
@@ -62,9 +63,9 @@
 					var dist = L.GPX.get_distance(gpx); //returns the total track distance, in meters
 				</script>
 					
-				<div id="player"></div>
+				<div id="example"></div>
 				<script>
-				    podlovePlayer('#player', {
+				    podlovePlayer('#example', {
 				        title: '0. Im Kyffhäusergebirge. Mit Jürgen Pusch.',
 				        subtitle: 'Exkursionsbericht',
 				        summary: '…',
@@ -123,6 +124,7 @@
 				          title: 'Audio MP3'
 				        }],
 				        reference: {
+				            config: '//podlove-player.surge.sh/fixtures/example.json',
 				            share: '//podlove-player.surge.sh/share'
 				        },
 				        contributors: [{
