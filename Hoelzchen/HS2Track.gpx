@@ -91,12 +91,17 @@
 	<wpt lat="51.376068" lon="11.098476">
 		<time>2018-08-23T13:18:28Z</time>
 		<name><![CDATA[6 Nördlich der Hornungshöhe]]></name>
-		<desc><![CDATA[<ul>
-<li><a href="https://www.deutsche-biographie.de/pnd1026149509.html">Ernst Gottfried Hornung</a><br>
-*Artenliste
-<ul>
-<li><a href="http://www.floraweb.de/pflanzenarten/artenhome.xsql?suchnr=2993&amp;"><em>Hornungia petraea</em> (Zwerg-Steppenkresse)</a></li>
-</ul>]]></desc>
+		<desc><![CDATA[<li>Station 6: Nördlich der Hornungshöhe
+	<ul>
+		<li><a href="https://www.deutsche-biographie.de/pnd1026149509.html">Ernst Gottfried Hornung</a><br>
+			<li> Artenliste
+				<ul>
+					<li><a href="http://www.floraweb.de/pflanzenarten/artenhome.xsql?suchnr=2993&amp;"><em>Hornungia petraea</em> (Zwerg-Steppenkresse)</a></li>
+				</ul>
+			</li>
+		</li>
+	</ul>
+</li>]]></desc>
 	</wpt>
 	<wpt lat="51.374747" lon="11.103958">
 		<time>2018-08-23T13:19:05Z</time>
