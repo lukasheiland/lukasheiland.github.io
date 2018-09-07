@@ -13,9 +13,11 @@
 		<ele>0.000000</ele>
 		<time>2018-08-23T13:11:37Z</time>
 		<name><![CDATA[1 Aufforstung und potentielle natürliche Vegetation unterhalb des Galgenbergs]]></name>
-		<desc><![CDATA[* [Potentiell Natürliche Vegetation](https://www.spektrum.de/lexikon/geowissenschaften/potentiell-natuerliche-vegetation/12654)
-* [Eichen-Elsbeerenwald](https://www.spektrum.de/lexikon/biologie/lithospermo-quercetum/39663)
-* Offenland am Südkyffhäuser]]></desc>
+		<desc><![CDATA[<ul>
+<li><a href="https://www.spektrum.de/lexikon/geowissenschaften/potentiell-natuerliche-vegetation/12654">Potentiell Natürliche Vegetation</a></li>
+<li><a href="https://www.spektrum.de/lexikon/biologie/lithospermo-quercetum/39663">Eichen-Elsbeerenwald</a></li>
+<li>Offenland am Südkyffhäuser</li>
+</ul>]]></desc>
 	</wpt>
 	<wpt lat="51.365877" lon="11.088616">
 		<ele>0.000000</ele>
@@ -33,15 +35,13 @@
 * [*Artemisia campestris* (Feld-Beifuß)[http://www.floraweb.de/pflanzenarten/artenhome.xsql?suchnr=596&]
 * [*Thymus praecox* (Früher Thymian)[http://www.floraweb.de/pflanzenarten/artenhome.xsql?suchnr=5957&]
 * *Orobanche* spp. (Gattung der Sommerwurzen)
-* [*Eryngium campestre* (Feld-Mannstreu)](http://www.floraweb.de/pflanzenarten/artenhome.xsql?suchnr=2216&)
-]]></desc>
+* [*Eryngium campestre* (Feld-Mannstreu)](http://www.floraweb.de/pflanzenarten/artenhome.xsql?suchnr=2216&)]]></desc>
 	</wpt>
 	<wpt lat="51.366154" lon="11.088279">
 		<ele>0.000000</ele>
 		<time>2018-08-23T13:13:36Z</time>
 		<name>3 Offener Gipsfels</name>
-		<desc>* [Bunte-Erdflechten-Gesellschaft](http://public.bibliothek.uni-halle.de/index.php/hercynia/article/viewFile/1429/1496)
-</desc>
+		<desc>* [Bunte-Erdflechten-Gesellschaft](http://public.bibliothek.uni-halle.de/index.php/hercynia/article/viewFile/1429/1496)</desc>
 	</wpt>
 	<wpt lat="51.370769" lon="11.087103">
 		<time>2018-08-23T13:14:40Z</time>
@@ -49,8 +49,7 @@
 		<desc>* [Karst](https://www.spektrum.de/lexikon/geowissenschaften/karst/8099
 * [Gipskuppen und -buckel](https://www.karstwanderweg.de/publika/mit_heim/19/index.htm
 * [Doline](https://www.spektrum.de/lexikon/geowissenschaften/doline/3398)
-* [Solquelle](https://de.wikipedia.org/wiki/Solequelle)
-</desc>
+* [Solquelle](https://de.wikipedia.org/wiki/Solequelle)</desc>
 	</wpt>
 	<wpt lat="51.372319" lon="11.086967">
 		<time>2018-08-23T13:16:38Z</time>
@@ -73,8 +72,7 @@
 	* [Pusch, J. (2010): Erhalt alter Obstsorten im Naturpark "Kyffhäuser" (Thüringen). In: BfN (Hrsg.): Naturschutz und Biologische Vielfalt 104. 107–120.](https://www.kyffhaeuser.de/kyf/index.php/schutzgebiete-landschaftsplanung-naturschutz.html?file=tl_files/download/Infomaterial/naturschutz/Obstsortengarten.pdf)
 * [Veredeln](https://de.wikipedia.org/wiki/Pflanzenveredelung)
 * [Deutsche Genbank Obst](https://www.deutsche-genbank-obst.de)
-* [Genetischer Fingerabdruck](https://de.wikipedia.org/wiki/Genetischer_Fingerabdruck)
-]]></desc>
+* [Genetischer Fingerabdruck](https://de.wikipedia.org/wiki/Genetischer_Fingerabdruck)]]></desc>
 	</wpt>
 	<wpt lat="51.371428" lon="11.104538">
 		<time>2018-08-23T13:20:47Z</time>
@@ -92,8 +90,7 @@
 [*Bromus japonicus* (Japanische Trespe)](http://www.floraweb.de/pflanzenarten/artenhome.xsql?suchnr=905&)
 [*Adonis aestivalis* (Sommer-Adonisröschen)](http://www.floraweb.de/pflanzenarten/artenhome.xsql?suchnr=76&)
 [*Centaurea cyanus* (Kornblume, Korn-Flockenblume, Schöne Blaue Blume)](http://www.floraweb.de/pflanzenarten/artenhome.xsql?suchnr=1344&)
-[*Adonis flammea* (Flammen-Adonisröschen)](http://www.floraweb.de/pflanzenarten/artenhome.xsql?suchnr=78&)
-]]></desc>
+[*Adonis flammea* (Flammen-Adonisröschen)](http://www.floraweb.de/pflanzenarten/artenhome.xsql?suchnr=78&)]]></desc>
 	</wpt>
 	<wpt lat="51.367433" lon="11.101642">
 		<time>2018-08-23T13:21:41Z</time>
@@ -124,15 +121,13 @@
 * [*Thesium linophyllon* (Mittleres Vermeinkraut, Mittleres Leinblatt, Leinblättriger Bergflachs)](http://www.floraweb.de/pflanzenarten/artenhome.xsql?suchnr=5922&)
 * [*Geranium sanguineum* (Blutroter Storchschnabel, Blut-Storchschnabel)](http://www.floraweb.de/pflanzenarten/artenhome.xsql?suchnr=2693&)
 
-* [Kyffhäuserzikade (*Psammotettix inexpectatus*)](http://wwwuser.gwdg.de/~hnickel/kyffhaus.pdf)
-]]></desc>
+* [Kyffhäuserzikade (*Psammotettix inexpectatus*)](http://wwwuser.gwdg.de/~hnickel/kyffhaus.pdf)]]></desc>
 	</wpt>
 	<wpt lat="51.366649" lon="11.097699">
 		<ele>0.000000</ele>
 		<time>2018-08-23T13:25:13Z</time>
 		<name>11 Gipskuppe</name>
-		<desc>* [Bunte-Erdflechten-Gesellschaft](http://public.bibliothek.uni-halle.de/index.php/hercynia/article/viewFile/1429/1496)
-</desc>
+		<desc>* [Bunte-Erdflechten-Gesellschaft](http://public.bibliothek.uni-halle.de/index.php/hercynia/article/viewFile/1429/1496)</desc>
 	</wpt>
 	<wpt lat="51.361562" lon="11.095987">
 		<time>2018-08-22T16:28:10Z</time>
