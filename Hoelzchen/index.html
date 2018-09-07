@@ -10,7 +10,9 @@
 	
 	<!-- Podlove -->
 	<script src="https://cdn.podlove.org/web-player/embed.js"></script>
-	
+	<script class="podlove-subscribe-button" src="https://cdn.podlove.org/subscribe-button/javascripts/app.js" data-language="de" data-size="small"
+		data-json-data="podcastData" data-colors="red;green;blue" data-buttonid="123abc" data-hide="true"></script>
+		
 	<!-- Leaflet -->	
 	<link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css" />
 	<script src="https://unpkg.com/leaflet@1.3.4/dist/leaflet.js"></script>
@@ -60,10 +62,9 @@
 					var dist = L.GPX.get_distance(gpx); //returns the total track distance, in meters
 				</script>
 					
-				<div id="example"></div>
-				<script src="embed.js"></script>
+				<div id="player"></div>
 				<script>
-				    podlovePlayer('#example', {
+				    podlovePlayer('#player', {
 				        title: '0. Im Kyffhäusergebirge. Mit Jürgen Pusch.',
 				        subtitle: 'Exkursionsbericht',
 				        summary: '…',
@@ -122,7 +123,6 @@
 				          title: 'Audio MP3'
 				        }],
 				        reference: {
-				            config: '//podlove-player.surge.sh/fixtures/example.json',
 				            share: '//podlove-player.surge.sh/share'
 				        },
 				        contributors: [{
