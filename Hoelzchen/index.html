@@ -11,7 +11,19 @@
 	<!-- Podlove -->
 	<script src="https://cdn.podlove.org/web-player/embed.js"></script>
 	<script class="podlove-subscribe-button" src="https://cdn.podlove.org/subscribe-button/javascripts/app.js" data-language="de" data-size="small"
-		data-json-data="podcastData" data-colors="red;green;blue" data-buttonid="123abc" data-hide="true"></script>
+		data-json-data="podcastData" data-colors="red;green;blue" data-buttonid="subscribebutton" data-hide="true"></script>
+		
+		<!--
+		data-json-data: name of the variable where the button can find information about the podcast (see Podcast data API section)
+		data-language: language the texts on the button and popup should be in (currently supports 'de', 'en', 'eo', 'fi', 'fr', 'nl', 'zh' and 'ja')
+		data-size: size and style of the button ('small', 'medium', 'big'). All of the sizes can be combined with 'auto' to adapt the button width to the available space like this: 'big auto'
+		data-color: define the color of the button (Please see section **Override Button Color** for more information)
+		data-buttonid: you can use this to open the popup from another element on the same page (see section **Use your own button element**
+		data-hide: if set to `true` the button will not be shown (useful if you want to use your own element
+		data-format: choose a button format, default is a rectangle, options are 'square' and 'cover' (**Note**: 'cover' has a max size of 300px)
+		data-style: choose a button style, default is filled, options are 'outline' and 'frameless'
+		-->
+		
 		
 	<!-- Leaflet -->	
 	<link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css" />
@@ -28,6 +40,7 @@
 			<h2>Vom Hölzchen aufs Stöckchen</h2>
 			<p class="clearfix">
 				Das da oben ist ein Arbeitstitel für einen Exkursionspodcast.
+				<div id="subscribebutton"></div>
 			</p>
 			<h3>0. Im Kyffhäusergebirge. Mit Jürgen Pusch.</h3>
 			<p class="clearfix">
