@@ -102,7 +102,7 @@
 										lineCap: 'round'
 									}
 								}).on('addpoint', function(e) {
-								  console.log('Added ' + e.point_type + ' point: ' + e.point);
+								  console.log('Added ' + e.point_type + ' point: ' + e.label);
 							}).on('loaded', function(e) {
 								var gpx = e.target;
 								map.fitToBounds(gpx.getBounds());
