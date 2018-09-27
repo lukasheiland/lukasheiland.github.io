@@ -12,195 +12,67 @@
 	<wpt lat="51.364485" lon="11.088693">
 		<ele>0.000000</ele>
 		<time>2018-08-23T13:11:37Z</time>
-		<name><![CDATA[1 Aufforstung und potentielle natürliche Vegetation unterhalb des Galgenbergs]]></name>
-		<desc><![CDATA[<ul>
-<li><a href="https://www.spektrum.de/lexikon/geowissenschaften/potentiell-natuerliche-vegetation/12654">Potentiell Natürliche Vegetation</a></li>
-<li><a href="https://www.spektrum.de/lexikon/biologie/lithospermo-quercetum/39663">Eichen-Elsbeerenwald</a></li>
-<li>Offenland am Südkyffhäuser</li>
-<li>Artenliste
-	<ul>
-		<li><a href="http://www.floraweb.de/pflanzenarten/artenhome.xsql?suchnr=4296&amp;"><em>Pinus nigra</em> (Schwarz-Kiefer)</a></li>
-		<li><a href="http://www.floraweb.de/pflanzenarten/artenhome.xsql?suchnr=5829&amp;"><em>Syringa vulgaris</em> (Gewöhnlicher Flieder)</a></li>
-		<li><a href="http://www.floraweb.de/pflanzenarten/artenhome.xsql?suchnr=3398&amp;"><em>Ligustrum vulgare</em> (Gewöhnlicher Liguster)</a></li>
-		<li><a href="http://www.floraweb.de/pflanzenarten/artenhome.xsql?suchnr=4855&amp;"><em>Robinia pseudoacacia</em> (Gewöhnliche Robinie)</a></li>
-		<li><a href="http://www.floraweb.de/pflanzenarten/artenhome.xsql?suchnr=4855&amp;"><em>Prunus mahaleb</em> (Felsen-Kirsche, Steinweichsel, Weichselkirsche)</a></li>
-	</ul>
-</li>
-</ul>]]></desc>
+		<name>2</name>
+		<desc><![CDATA[Aufforstung und potentielle natürliche Vegetation unterhalb des Galgenbergs]]></desc>
 	</wpt>
 	<wpt lat="51.365877" lon="11.088616">
 		<ele>0.000000</ele>
 		<time>2018-08-23T13:13:18Z</time>
-		<name>2 Trespenrasen am Galgenberg</name>
-		<desc><![CDATA[<ul>
-<li><a href="https://www.spektrum.de/lexikon/geowissenschaften/halbtrockenrasen/6635">Halbtrockenrasen (Mesobrometum)</a>
-<ul>
-<li><a href="http://floraweb.de/vegetation/PflGesSystematik.php3?knoten_id=724">Brometum bei Floraweb</a></li>
-</ul>
-</li>
-<li>Pflege durch Schafweide</li>
-<li><a href="https://www.spektrum.de/lexikon/biologie/schmarotzerpflanzen/59619">Schmarotzerpflanzen</a>
-<ul>
-<li>insbesondere <a href="https://de.wikipedia.org/wiki/Sommerwurzgew%C3%A4chse">Orobanchaceae (Familie der Sommerwurzgewächse)</a>, und</li>
-<li><a href="https://de.wikipedia.org/wiki/Sommerwurzen">Orobanche spp. (Gattung der Sommerwurzen)</a></li>
-</ul>
-</li>
-<li><a href="https://www.spektrum.de/lexikon/biologie/steppenroller/63715">Steppenroller</a></li>
-<li>Artenliste
-<ul>
-<li><a href="http://www.floraweb.de/pflanzenarten/artenhome.xsql?suchnr=891&amp;"><em>Bromus erectus</em> (Aufrechte Trespe)</a></li>
-<li><a href="http://www.floraweb.de/pflanzenarten/artenhome.xsql?suchnr=596&amp;"><em>Artemisia campestris</em> (Feld-Beifuß)</a></li>
-<li><a href="http://www.floraweb.de/pflanzenarten/artenhome.xsql?suchnr=5957&amp;"><em>Thymus praecox</em> (Früher Thymian)</a></li>
-<li><em>Orobanche</em> spp. (Gattung der Sommerwurzen)</li>
-<li><a href="http://www.floraweb.de/pflanzenarten/artenhome.xsql?suchnr=2216&amp;"><em>Eryngium campestre</em> (Feld-Mannstreu)</a></li>
-</ul>
-</li>]]></desc>
+		<name>3</name>
+		<desc>Trespenrasen am Galgenberg</desc>
 	</wpt>
 	<wpt lat="51.366154" lon="11.088279">
 		<ele>0.000000</ele>
 		<time>2018-08-23T13:13:36Z</time>
-		<name>3 Offener Gipsfels</name>
-		<desc><![CDATA[<ul>
-<li><a href="http://public.bibliothek.uni-halle.de/index.php/hercynia/article/viewFile/1429/1496">Bunte-Erdflechten-Gesellschaft</a></li>
-<li>Artenliste
-<ul>
-<li>Sedum spp. (Gattung der Mauerpfeffer und Fetthennen)</li>
-</ul>
-</li>
-</ul>]]></desc>
+		<name>4</name>
+		<desc>Offener Gipsfels
+</desc>
 	</wpt>
 	<wpt lat="51.370769" lon="11.087103">
 		<time>2018-08-23T13:14:40Z</time>
-		<name><![CDATA[4 Karstbuchenwald an der Weißen Küche]]></name>
-		<desc><![CDATA[<ul>
-<li><a href="https://www.spektrum.de/lexikon/geowissenschaften/karst/8099">Karst</a></li>
-<li><a href="https://www.karstwanderweg.de/publika/mit_heim/19/index.htm">Gipskuppen und -buckel</a></li>
-<li><a href="https://www.spektrum.de/lexikon/geowissenschaften/doline/3398">Doline</a></li>
-<li><a href="https://de.wikipedia.org/wiki/Solequelle">Solquelle</a></li>
-</ul>]]></desc>
+		<name>5</name>
+		<desc><![CDATA[Karstbuchenwald an der Weißen Küche
+]]></desc>
 	</wpt>
 	<wpt lat="51.372319" lon="11.086967">
 		<time>2018-08-23T13:16:38Z</time>
-		<name>5 Hohlweg, Forstwirtschaft und Salzsiederei</name>
-		<desc><![CDATA[<ul>
-<li><a href="https://de.wikipedia.org/wiki/Hohlweg">Hohlweg</a></li>
-<li>Salzsieden, <a href="https://de.wikipedia.org/wiki/Saline">Saline</a></li>
-<li><a href="https://de.wikipedia.org/wiki/Zechsteinmeer#Rohstoffe">Zechsteinsalz</a></li>
-</ul>]]></desc>
+		<name>6</name>
+		<desc>Hohlweg, Forstwirtschaft und Salzsiederei</desc>
 	</wpt>
 	<wpt lat="51.376068" lon="11.098476">
 		<time>2018-08-23T13:18:28Z</time>
-		<name><![CDATA[6 Nördlich der Hornungshöhe]]></name>
-		<desc><![CDATA[<li>Station 6: Nördlich der Hornungshöhe
-	<ul>
-		<li><a href="https://www.deutsche-biographie.de/pnd1026149509.html">Ernst Gottfried Hornung</a><br>
-			<li> Artenliste
-				<ul>
-					<li><a href="http://www.floraweb.de/pflanzenarten/artenhome.xsql?suchnr=2993&amp;"><em>Hornungia petraea</em> (Zwerg-Steppenkresse)</a></li>
-				</ul>
-			</li>
-		</li>
-	</ul>
-</li>]]></desc>
+		<name>7</name>
+		<desc><![CDATA[Nördlich der Hornungshöhe]]></desc>
 	</wpt>
 	<wpt lat="51.374747" lon="11.103958">
 		<time>2018-08-23T13:19:05Z</time>
-		<name><![CDATA[7 Obstsortengarten am Till'schen Tor und genetische Diversität]]></name>
-		<desc><![CDATA[<ul>
-<li><a href="https://www.kyffhaeuser.de/kyf/index.php/schutzgebiete-landschaftsplanung-naturschutz.html?file=tl_files/download/Infomaterial/naturschutz/Obstsortengarten.pdf">Pusch, J. (2010): Erhalt alter Obstsorten im Naturpark “Kyffhäuser” (Thüringen). In: BfN (Hrsg.): Naturschutz und Biologische Vielfalt 104. 107–120.</a></li>
-</ul>
-</li>
-<li><a href="https://de.wikipedia.org/wiki/Pflanzenveredelung">Veredeln</a></li>
-<li><a href="https://www.deutsche-genbank-obst.de">Deutsche Genbank Obst</a></li>
-<li><a href="https://de.wikipedia.org/wiki/Genetischer_Fingerabdruck">Genetischer Fingerabdruck</a></li>
-</ul>]]></desc>
+		<name>8</name>
+		<desc><![CDATA[Obstsortengarten am Till'schen Tor und genetische Diversität]]></desc>
 	</wpt>
 	<wpt lat="51.371428" lon="11.104538">
 		<time>2018-08-23T13:20:47Z</time>
-		<name>8 Acker am Schlachtberg und Rote Listen</name>
-		<desc><![CDATA[<ul>
-<li>Ackerrand</li>
-<li><a href="https://de.wikipedia.org/wiki/Einj%C3%A4hrige_Pflanze">Einjährige Pflanzen</a></li>
-<li><a href="https://de.wikipedia.org/wiki/Zweij%C3%A4hrige_Pflanze">Zweijährige Pflanzen</a></li>
-<li><a href="https://de.wikipedia.org/wiki/Mehrj%C3%A4hrige_Pflanze">Mehrjährige Pflanzen</a></li>
-<li><a href="https://de.wikipedia.org/wiki/Ausdauernde_Pflanze">Ausdauernde Pflanzen</a></li>
-<li><a href="https://www.spektrum.de/lexikon/biologie/lebensraumdiversitaet/38551">Lebensraumdiversitöt</a></li>
-<li><a href="https://de.wikipedia.org/wiki/Rote_Liste_gef%C3%A4hrdeter_Arten">Rote Listen</a>
-<ul>
-<li><a href="https://www.bfn.de/themen/rote-liste/rl-pflanzen.html">… gefährdeter Pflanzenarten in Deutschland</a></li>
-</ul>
-</li>
-<li>Artenliste
-<ul>
-<li><a href="http://www.floraweb.de/pflanzenarten/artenhome.xsql?suchnr=956&amp;"><em>Bupleurum rotundifolium</em> (Rundblättriges Hasenohr)</a></li>
-<li><a href="http://www.floraweb.de/pflanzenarten/artenhome.xsql?suchnr=905&amp;"><em>Bromus japonicus</em> (Japanische Trespe)</a></li>
-<li><a href="http://www.floraweb.de/pflanzenarten/artenhome.xsql?suchnr=76&amp;"><em>Adonis aestivalis</em> (Sommer-Adonisröschen)</a></li>
-<li><a href="http://www.floraweb.de/pflanzenarten/artenhome.xsql?suchnr=1344&amp;"><em>Centaurea cyanus</em> (Kornblume, Korn-Flockenblume, Schöne Blaue Blume)</a></li>
-<li><a href="http://www.floraweb.de/pflanzenarten/artenhome.xsql?suchnr=78&amp;"><em>Adonis flammea</em> (Flammen-Adonisröschen)</a></li>
-</ul>
-</li>
-</ul>]]></desc>
+		<name>9</name>
+		<desc>Acker am Schlachtberg und Rote Listen</desc>
 	</wpt>
 	<wpt lat="51.367433" lon="11.101642">
 		<time>2018-08-23T13:21:41Z</time>
-		<name>9 Ehemaliger Acker und Samenbank</name>
-		<desc><![CDATA[<ul>
-<li><a href="https://www.spektrum.de/lexikon/geowissenschaften/samenbank/13942">Samenbank</a></li>
-<li>Artenliste
-<ul>
-<li><a href="http://www.floraweb.de/pflanzenarten/artenhome.xsql?suchnr=5752&amp;"><em>Stachys annua</em> (Einjähriger Ziest)</a></li>
-</ul>
-</li>
-</ul>]]></desc>
+		<name>10</name>
+		<desc>Ehemaliger Acker und Samenbank</desc>
 	</wpt>
 	<wpt lat="51.367163" lon="11.099060">
 		<time>2018-08-23T13:24:38Z</time>
-		<name>10 Steppenrasen am Steilhang oberhalb des Napptals</name>
-		<desc><![CDATA[<ul>
-<li><a href="https://www.deutschlands-natur.de/lebensraeume/grasland/subpannonische-steppen-trockenrasen/">Subpanonnische Steppenrasen</a>
-<ul>
-<li><a href="http://floraweb.de/vegetation/PflGesSystematik.php3?knoten_id=739">Festucion valesiacae bei Floraweb</a></li>
-</ul>
-</li>
-<li><a href="https://de.wikipedia.org/wiki/Pannonische_Florenprovinz">Pannonische Florenprovinz</a></li>
-<li>Artenliste
-<ul>
-<li><a href="http://www.floraweb.de/pflanzenarten/artenhome.xsql?suchnr=5957&amp;"><em>Thymus praecox</em></a></li>
-<li><a href="http://www.floraweb.de/pflanzenarten/artenhome.xsql?suchnr=13746&amp;"><em>Stipa pulcherrima</em> (Großes Federgras, Kyffhäuser-Federgras)</a></li>
-<li><a href="http://www.floraweb.de/pflanzenarten/artenhome.xsql?suchnr=5764&amp;"><em>Stachys recta</em> (Aufrechter Ziest)</a></li>
-<li><a href="http://www.floraweb.de/pflanzenarten/artenhome.xsql?suchnr=80&amp;"><em>Adonis vernalis</em> (Frühlings-Adonisröschen)</a></li>
-<li><a href="http://www.floraweb.de/pflanzenarten/artenhome.xsql?suchnr=1781&amp;"><em>Cuscuta epithymum</em> (Quendel-Seide)</a></li>
-<li><a href="http://www.floraweb.de/pflanzenarten/artenhome.xsql?suchnr=5898&amp;"><em>Thalictrum minus</em> (Kleine Wiesenraute)</a></li>
-<li><a href="http://www.floraweb.de/pflanzenarten/artenhome.xsql?suchnr=2749&amp;"><em>Gypsophila fastigiata</em> (Ebensträußiges Gipskraut)</a></li>
-<li><a href="http://www.floraweb.de/pflanzenarten/artenhome.xsql?suchnr=5392&amp;"><em>Scorzonera purpurea</em> (Violette Schwarzwurzel)</a></li>
-<li><a href="http://www.floraweb.de/pflanzenarten/artenhome.xsql?suchnr=5389&amp;"><em>Scorzonera hispanica</em> (Garten-Schwarzwurzel)</a></li>
-<li><a href="http://www.floraweb.de/pflanzenarten/artenhome.xsql?suchnr=596&amp;"><em>Artemisia campestris</em> (Feld-Beifuß)</a></li>
-<li><a href="http://www.floraweb.de/pflanzenarten/artenhome.xsql?suchnr=25004&amp;"><em>Centaurea stoebe</em> (Rispen-Flockenblume, Rheinische Flockenblume, Gefleckte Flockenblume)</a></li>
-<li><em>Orobanche</em> spec.</li>
-<li><a href="http://www.floraweb.de/pflanzenarten/artenhome.xsql?suchnr=5884&amp;"><em>Teucrium montanum</em> (Berg-Gamander)</a></li>
-<li><a href="http://www.floraweb.de/pflanzenarten/artenhome.xsql?suchnr=5922&amp;"><em>Thesium linophyllon</em> (Mittleres Vermeinkraut, Mittleres Leinblatt, Leinblättriger Bergflachs)</a></li>
-<li><a href="http://www.floraweb.de/pflanzenarten/artenhome.xsql?suchnr=2693&amp;"><em>Geranium sanguineum</em> (Blutroter Storchschnabel, Blut-Storchschnabel)</a></li>
-<li><a href="http://wwwuser.gwdg.de/~hnickel/kyffhaus.pdf">Kyffhäuserzikade (<em>Psammotettix inexpectatus</em>)</a></li>
-</ul>
-</li>
-</ul>]]></desc>
+		<name>11</name>
+		<desc>Steppenrasen am Steilhang oberhalb des Napptals</desc>
 	</wpt>
 	<wpt lat="51.366649" lon="11.097699">
 		<ele>0.000000</ele>
 		<time>2018-08-23T13:25:13Z</time>
-		<name>11 Gipskuppe</name>
-		<desc><![CDATA[<ul>
-<li><a href="http://public.bibliothek.uni-halle.de/index.php/hercynia/article/viewFile/1429/1496">Bunte-Erdflechten-Gesellschaft</a></li>
-</ul>
-</li>
-<li>Schluss
-<ul>
-<li><a href="http://www.naturpark-kyffhaeuser.de/1/naturparkverwaltung/">Naturparkverwaltung Kyffhäuser</a></li>
-</ul>]]></desc>
+		<name>12</name>
+		<desc>Gipskuppe</desc>
 	</wpt>
 	<wpt lat="51.361562" lon="11.095987">
 		<time>2018-08-22T16:28:10Z</time>
-		<name>0 Treffpunkt: Stadtpark Bad Frankenhausen</name>
+		<name>1</name>
 		<desc><![CDATA[Treffpunkt: Am Hoheneck 6, 06567 Bad Frankenhausen/Kyffhäuser, Deutschland]]></desc>
 	</wpt>
 	<trk>
