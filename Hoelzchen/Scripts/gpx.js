@@ -372,17 +372,16 @@ L.GPX = L.FeatureGroup.extend({
         var wptIcons = options.marker_options.wptIcons;
         var wptIconUrls = options.marker_options.wptIconUrls;
         var symIcon;
-		symIcon = new L.ExtraMarkers.icon({icon: 'fa-number', number: name, markerColor: 'black', shape: 'circle', prefix: 'fa' });
         if (wptIcons && wptIcons[symKey]) {
-          symIcon = wptIcons[symKey];
+			symIcon = new L.ExtraMarkers.icon({icon: 'fa-number', number: name, markerColor: 'black', shape: 'circle', prefix: 'fa' });
         } else if (wptIconUrls && wptIconUrls[symKey]) {
-          symIcon = new L.GPXTrackIcon({iconUrl: wptIconUrls[symKey]});
+			symIcon = new L.ExtraMarkers.icon({icon: 'fa-number', number: name, markerColor: 'black', shape: 'circle', prefix: 'fa' });
         } else if (wptIcons && wptIcons['']) {
-          symIcon = wptIcons[''];
+			symIcon = new L.ExtraMarkers.icon({icon: 'fa-number', number: name, markerColor: 'black', shape: 'circle', prefix: 'fa' });
         } else if (wptIconUrls && wptIconUrls['']) {
-          symIcon = new L.GPXTrackIcon({iconUrl: wptIconUrls['']});
+			symIcon = new L.ExtraMarkers.icon({icon: 'fa-number', number: name, markerColor: 'black', shape: 'circle', prefix: 'fa' });
         } else {
-		  symIcon = new L.ExtraMarkers.icon({icon: 'fa-number', number: name, markerColor: 'black', shape: 'circle', prefix: 'fa' })
+			symIcon = new L.ExtraMarkers.icon({icon: 'fa-number', number: name, markerColor: 'black', shape: 'circle', prefix: 'fa' });
           continue;
         }
 
