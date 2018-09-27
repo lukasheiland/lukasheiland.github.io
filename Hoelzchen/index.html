@@ -85,11 +85,12 @@
 										
 										//startIconUrl: 'Icons/startpin.png',
 										//endIconUrl: 'Icons/endpin.png',
-										//shadowUrl: 'Icons/pinshadow.png',
+										shadowUrl: 'Icons/pinshadow.png',
+										
 										wptIcons: {
-												'': new L.ExtraMarkers.icon({
+												'2 Trespenrasen am Galgenberg': new L.ExtraMarkers.icon({
 													icon: 'fa-number',
-													number: '6',
+													number: '2',
 													markerColor: 'black',
 													shape: 'circle',
 													prefix: 'fa'
@@ -103,7 +104,7 @@
 										lineCap: 'round'
 									}
 								}).on('addpoint', function(e) {
-								  console.log('Added ' + e.point_type + ' point: ' + '3');
+								 	//
 							}).on('loaded', function(e) {
 								mymap.fitBounds(e.target.getBounds())
 						}).addTo(mymap);
