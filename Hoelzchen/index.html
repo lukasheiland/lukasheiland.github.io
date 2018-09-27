@@ -60,16 +60,32 @@
 					var gpx = 'HS2Track.gpx';
 					new L.GPX(gpx, {async: true,
 									marker_options: {
-										startIconUrl: 'Icons/startpin.png',
-										endIconUrl: 'Icons/endpin.png',
-										shadowUrl: 'Icons/pinshadow.png',
+										
+										pointMatchers: [
+										      {
+										        regex: ^[0-9],
+										        icon: new L.ExtraMarkers.icon({
+													icon: 'fa-number',
+													number: '7',
+													markerColor: 'black',
+													shape: 'circle',
+													prefix: 'fa'
+													}),
+										      },
+										      {
+										        regex: /Home/,
+										        icon: new L.AwesomeMarkers.icon({
+										          icon: 'home',
+										          markerColor: 'green',
+										          iconColor: 'white'
+										        }),
+										      }
+										    ]
+										
+										//startIconUrl: 'Icons/startpin.png',
+										//endIconUrl: 'Icons/endpin.png',
+										//shadowUrl: 'Icons/pinshadow.png',
 										wptIcons: {
-											//'': new L.AwesomeMarkers.icon({
-											//	icon: 'coffee',
-											//	prefix: 'fa',
-											//	markerColor: 'blue',
-											//	iconColor: 'white'
-											//}),
 												'': new L.ExtraMarkers.icon({
 													icon: 'fa-number',
 													number: '7',
@@ -85,9 +101,12 @@
 										weight: 4,
 										lineCap: 'round'
 									}
-									}).on('loaded', function(e) {
-										mymap.fitBounds(e.target.getBounds());
-									}).addTo(mymap);
+								}).on('addpoint', function(e) {
+								  console.log('Added ' + e.point_type + ' point: ' + e.point);
+							}).on('loaded', function(e) {
+								var gpx = e.target;
+								map.fitToBounds(gpx.getBounds());
+						}).addTo(map);
 					//get_distance(gpx); //returns the total track distance, in meters
 				</script>
 					
