@@ -58,7 +58,7 @@
 					 	}).addTo(mymap);
 				
 					var gpx = 'HS2Track.gpx';
-					var ii = 1;
+					var ii = 0;
 					new L.GPX(gpx, {async: true,
 									marker_options: {
 										pointMatchers: [
@@ -91,7 +91,7 @@
 										wptIcons: {
 												'': new L.ExtraMarkers.icon({
 													icon: 'fa-number',
-													number: ii+1,
+													number: ii++,
 													markerColor: 'black',
 													shape: 'circle',
 													prefix: 'fa'
