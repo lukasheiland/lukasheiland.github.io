@@ -102,7 +102,7 @@
 										lineCap: 'round'
 									}
 								}).on('addpoint', function(e) {
-								  console.log('Added ' + e.point_type + ' point: ' + get_name(e));
+								  console.log('Added ' + e.point_type + ' point: ' + e.get_name());
 							}).on('loaded', function(e) {
 								mymap.fitBounds(e.target.getBounds())
 						}).addTo(mymap);
