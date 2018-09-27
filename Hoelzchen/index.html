@@ -60,44 +60,6 @@
 					var gpx = 'HS2Track.gpx';
 					var ii = 1;
 					new L.GPX(gpx, {async: true,
-									marker_options: {
-										pointMatchers: [
-										      {
-										        regex: /^\d.*$/,
-										        icon: new L.ExtraMarkers.icon({
-													icon: 'fa-number',
-													number: '7',
-													markerColor: 'black',
-													shape: 'circle',
-													prefix: 'fa'
-													}),
-										      },
-										      {
-										        regex: /^7.*$/,
-  										        icon: new L.ExtraMarkers.icon({
-  													icon: 'fa-number',
-  													number: '7',
-  													markerColor: 'black',
-  													shape: 'circle',
-  													prefix: 'fa'
-  													})
-										      }
-										    ],//?
-										
-										//startIconUrl: 'Icons/startpin.png',
-										//endIconUrl: 'Icons/endpin.png',
-										shadowUrl: 'Icons/pinshadow.png',
-										
-										wptIcons: {
-												'': new L.ExtraMarkers.icon({
-													icon: 'fa-number',
-													number: ii,
-													markerColor: 'black',
-													shape: 'circle',
-													prefix: 'fa'
-													})
-												}
-									},
 									polyline_options: {
 										color: '#00BBEF',
 										opacity: 0.75,
