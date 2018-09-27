@@ -372,7 +372,7 @@ L.GPX = L.FeatureGroup.extend({
         var wptIcons = options.marker_options.wptIcons;
         var wptIconUrls = options.marker_options.wptIconUrls;
         var symIcon;
-		symIcon = new L.ExtraMarkers.icon({icon: 'fa-number', number: name, markerColor: 'black', shape: 'circle', prefix: 'fa' };
+		symIcon = new L.ExtraMarkers.icon({icon: 'fa-number', number: name, markerColor: 'black', shape: 'circle', prefix: 'fa' });
         if (wptIcons && wptIcons[symKey]) {
           symIcon = wptIcons[symKey];
         } else if (wptIconUrls && wptIconUrls[symKey]) {
