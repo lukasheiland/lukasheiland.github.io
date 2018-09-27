@@ -102,10 +102,10 @@
 										lineCap: 'round'
 									}
 								}).on('addpoint', function(e) {
-								  console.log('Added ' + e.point_type + ' point: ' + e.label);
+								  console.log('Added ' + e.point_type + ' point: ' + e.point.name);
 							}).on('loaded', function(e) {
 								var gpx = e.target;
-								map.fitToBounds(gpx.getBounds());
+								mymap.fitToBounds(gpx.getBounds());
 						}).addTo(mymap);
 					//get_distance(gpx); //returns the total track distance, in meters
 				</script>
