@@ -60,15 +60,14 @@
 					 	}).addTo(mymap);
 				
 					var gpx = 'HS2Track.gpx';
-					var ii = 1;
-					new L.GPX(gpx, {async: true,
+					new L.GPX(gpx, {async: true},
 									polyline_options: {
 										color: '#00BBEF',
 										opacity: 0.75,
 										weight: 4,
 										lineCap: 'round'
 									}
-							}).on('loaded', function(e) {
+								).on('loaded', function(e) {
 								mymap.fitBounds(e.target.getBounds())
 						}).addTo(mymap);
 					//get_distance(gpx); //returns the total track distance, in meters
