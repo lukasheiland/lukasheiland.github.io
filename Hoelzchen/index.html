@@ -104,8 +104,7 @@
 								}).on('addpoint', function(e) {
 								  console.log('Added ' + e.point_type + ' point: ' + e.point.name);
 							}).on('loaded', function(e) {
-								var gpx = e.target;
-								mymap.fitToBounds(gpx.getBounds());
+								mymap.fitBounds(e.target.getBounds())
 						}).addTo(mymap);
 					//get_distance(gpx); //returns the total track distance, in meters
 				</script>
