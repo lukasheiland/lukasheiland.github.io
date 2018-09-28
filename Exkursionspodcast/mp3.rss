@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+<channel>
+<title>Exkursionspodcast</title>
+<link>http://heiland.earth/Exkursionspodcast/<link>
+<language>de-de</language>
+
+<itunes:subtitle>Kundliche Wanderungen zum Nachhören.</itunes:subtitle>
+<itunes:author>Lukas Heiland</itunes:author>
+<itunes:summary></itunes:summary>
+<description></description>
+<itunes:owner>
+    <itunes:name>Lukas Heiland</itunes:name>
+    <itunes:email>mail@heiland.earth</itunes:email>
+</itunes:owner>
+<itunes:explicit>no</itunes:explicit>
+<itunes:image href="http://heiland.earth/Exkursionspodcast/Poster.png" />
+<itunes:category text="Category Name"/></itunes:category>
+
+<!--REPEAT THIS BLOCK FOR EACH EPISODE-->
+<item>
+    <title>0. Im Kyffhäusergebirge. Mit Jürgen Pusch.</title>
+    <itunes:summary>Eine landschaftskundliche Wanderung durch den Südkyffhäuser mit dem Naturparksleiter, Physiker, und Botaniker Jürgen Pusch.</itunes:summary>
+    <description>Shownotes unter http://heiland.earth/Exkursionspodcast/.</description>
+    <link>http://heiland.earth/Exkursionspodcast/</link>
+    <enclosure url="http://heiland.earth/Exkursionspodcast/Ex0.mp3" type="audio/mpeg"></enclosure>
+    <pubDate>Thu, 27 Sep 2018 11:11:11 +0000</pubDate>
+    <itunes:author>Lukas Heiland</itunes:author>
+    <itunes:duration>01:14:23</itunes:duration>
+    <itunes:explicit>no</itunes:explicit>
+    <guid>http://heiland.earth/Exkursionspodcast/</guid>
+</item> 
+<!--END REPEAT--> 
+   
+</channel>
+</rss>
