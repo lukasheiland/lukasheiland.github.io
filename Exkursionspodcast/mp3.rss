@@ -17,7 +17,6 @@
 <itunes:image href="http://heiland.earth/Exkursionspodcast/Poster.png" />
 <itunes:category text="Category Name"/></itunes:category>
 
-<!--REPEAT THIS BLOCK FOR EACH EPISODE-->
 <item>
     <title>0. Im Kyffhäusergebirge. Mit Jürgen Pusch.</title>
     <itunes:summary>Eine landschaftskundliche Wanderung durch den Südkyffhäuser mit dem Naturparksleiter, Physiker, und Botaniker Jürgen Pusch.</itunes:summary>
@@ -30,7 +29,6 @@
     <itunes:explicit>no</itunes:explicit>
     <guid>http://heiland.earth/Exkursionspodcast/</guid>
 </item> 
-<!--END REPEAT--> 
    
 </channel>
 </rss>
