@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+  <channel>
+	    <title>Exkursionspodcast</title>
+		<itunes:subtitle>Kundliche Wanderungen zum Nachhören.</itunes:subtitle>
+	    <description>Noch ohne längere Beschreibung.</description>
+	    <link>http://heiland.earth/Exkursionspodcast/</link>
+	    <language>de</language>
+		<itunes:author>Lukas Heiland</itunes:author>
+	    <lastBuildDate>,    :: </lastBuildDate>
+	    <pubDate>Thu, 27 Sep 2018 11:11:11 +0000</pubDate>
+	<item>
+	<title>0. Im Kyffhäusergebirge. Mit Jürgen Pusch.</title>
+	<link>http://heiland.earth/Exkursionspodcast/</link>
+	<description>Shownotes unter http://heiland.earth/Exkursionspodcast/</description>
+	<enclosure url="http://heiland.earth/Exkursionspodcast/Ex0.mp3" length="" type="audio/mpeg" />
+	<source url="http://heiland.earth/Exkursionspodcast/Ex0.mp3">Hear the preview here</source>
+	<category>Podcasts</category>
+	<pubDate>Thu, 27 Sep 2018 11:11:11 +0000</pubDate>
+	</item>
+</channel>
+</rss>
